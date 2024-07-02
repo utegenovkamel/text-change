@@ -11,13 +11,40 @@
     "format": "biome format --write ./src"
   },
   "dependencies": {
+    "@mantine/carousel": "^7.8.0",
+    "@mantine/charts": "^7.8.0",
+    "@mantine/code-highlight": "^7.8.0",
     "@mantine/core": "7.6.1",
+    "@mantine/dates": "^7.8.0",
+    "@mantine/dropzone": "^7.8.0",
+    "@mantine/form": "^7.8.0",
     "@mantine/hooks": "7.6.1",
+    "@mantine/modals": "^7.8.0",
+    "@mantine/notifications": "^7.8.0",
+    "@mantine/nprogress": "^7.8.0",
+    "@mantine/spotlight": "^7.8.0",
+    "@mantine/tiptap": "^7.8.0",
+    "@reatom/framework": "^3.4.37",
+    "@reatom/npm-react": "^3.8.4",
+    "@tabler/icons-react": "^3.2.0",
+    "@tanstack/react-form": "^0.21.0",
+    "@tanstack/react-router": "^1.28.5",
+    "@tanstack/valibot-form-adapter": "^0.21.0",
+    "@tiptap/extension-link": "^2.3.0",
+    "@tiptap/react": "^2.3.0",
+    "@tiptap/starter-kit": "^2.3.0",
+    "dayjs": "^1.11.10",
+    "embla-carousel-react": "^8.0.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "recharts": "2",
+    "valibot": "^0.31.1"
   },
   "devDependencies": {
     "@biomejs/biome": "1.6.3",
+    "@playwright/test": "^1.41.1",
+    "@types/bun": "^1.0.12",
+    "@types/node": "^20.12.2",
     "@types/react": "^18.2.65",
     "@types/react-dom": "^18.2.21",
     "@vitejs/plugin-react": "^4.2.1",
@@ -27,10 +54,7 @@
     "postcss-simple-vars": "^7.0.1",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.4.2",
-    "vite": "^5.1.6",
-    "@playwright/test": "^1.41.1",
-    "@types/bun": "^1.0.12",
-    "@types/node": "^20.12.2"
+    "vite": "^5.1.6"
   },
   "packageManager": "pnpm@8.15.5",
   "simple-git-hooks": {
